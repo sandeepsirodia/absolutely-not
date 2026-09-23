@@ -1,0 +1,16 @@
+{
+  "name": "absolutely-not",
+  "owner": {
+    "name": "Sandeep Sirodia"
+  },
+  "metadata": {
+    "description": "Stops sycophancy: verdict first, holds positions without evidence, corrects false premises, no 'You're absolutely right'."
+  },
+  "plugins": [
+    {
+      "name": "absolutely-not",
+      "source": "./",
+      "description": "Stops sycophancy: verdict first, holds positions without evidence, corrects false premises, no 'You're absolutely right'."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "absolutely-not",
+  "description": "Stops sycophancy: verdict first, holds positions without evidence, corrects false premises, no 'You're absolutely right'.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Sandeep Sirodia"
+  },
+  "homepage": "https://github.com/sandeepsirodia/absolutely-not",
+  "license": "MIT"
+}
