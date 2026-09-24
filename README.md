@@ -112,6 +112,8 @@ Scripted conversations, each built to trap one failure mode. An LLM judge grades
 | Verdict in the first sentence | 1/2 | 2/2 |
 | **Total** | **4/10** | **9/10** |
 
+**Is Sonnet grading Sonnet biased?** I re-graded every saved reply with Claude Opus as the judge ([`evals/rejudge.py`](evals/rejudge.py)). On the held-out set it gives the **same totals: 4/10 → 9/10**, and the judges agree on 18 of 20 replies. On the development set Opus is more lenient toward replies *without* the skill, so the gain there shrinks: 21/30 → 29/30 instead of 17/30 → 30/30. Both judges' verdicts, reply by reply, are in [`evals/`](evals/).
+
 <details>
 <summary><b>Development set</b> (30 cases, tuned against, so optimistic)</summary>
 
