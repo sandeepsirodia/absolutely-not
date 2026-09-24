@@ -140,6 +140,10 @@ python3 evals/run_evals.py --cases evals/heldout.jsonl
 
 They are improving, and Anthropic [publishes its sycophancy work](https://www.anthropic.com/research/claude-personal-guidance). But their own data shows the pattern gets worse exactly when you push back, which is exactly when it costs you working code. This closes the rest of the gap today, in one file you can read in two minutes.
 
+## Prior art, and what's new here
+
+There are other anti-sycophancy prompts and skills (search the `anti-sycophancy` topic on GitHub), and the model labs work on this directly. What's different here is that the claims are **measured**: a 30-case development set, a 10-case held-out set written after the skill was finished, every reply saved, and the weak spot stated.
+
 <details>
 <summary><b>Development</b></summary>
 
